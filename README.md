@@ -4,7 +4,7 @@ Görev ve Proje Yönetim Sistemi için Node.js + Express.js ile geliştirilmiş 
 *Node.js ile Backend Programlama — Bitirme Projesi*
 
 - Proje tanıtımı: [docs/PROJE_TANITIM.md](docs/PROJE_TANITIM.md)
-- Postman test ekran görüntüleri: [docs/postman/](docs/postman/)
+- Postman test ekran görüntüleri: [docs/ekran-goruntuleri/](docs/ekran-goruntuleri/)
 
 ## Gereksinimler
 
@@ -108,7 +108,8 @@ TaskFlow/
 │       └── errorHandler.js    # 404 ve hata cevapları
 ├── docs/
 │   ├── PROJE_TANITIM.md       # Proje tanıtım dokümanı
-│   └── postman/               # Postman koleksiyonu ve test ekran görüntüleri
+│   ├── ekran-goruntuleri/     # Postman test ekran görüntüleri
+│   └── postman/               # Postman koleksiyonu
 └── logs/
     └── requests.log           # Logger çıktısı (çalışınca oluşur)
 ```
@@ -127,3 +128,25 @@ Her istek, zaman damgası, metot ve endpoint bilgisiyle hem konsola hem de `logs
 1. Sunucuyu `npm start` ile başlatın.
 2. Postman'de **Import** ile [docs/postman/TaskFlow.postman_collection.json](docs/postman/TaskFlow.postman_collection.json) dosyasını içe aktarın.
 3. Koleksiyondaki istekleri sırayla çalıştırın: Görev Ekle → Görevleri Listele → Görev Detayı → Görev Güncelle → Görev Sil.
+
+## Test Ekran Görüntüleri
+
+### Görev Ekleme
+
+![Görev ekleme](docs/ekran-goruntuleri/1-gorev-ekle.png)
+
+### Görev Listeleme
+
+![Görev listeleme](docs/ekran-goruntuleri/2-gorev-listele.png)
+
+### Görev Detayı
+
+![Görev detayı](docs/ekran-goruntuleri/3-gorev-detay.png)
+
+### Görev Güncelleme
+
+![Görev güncelleme](docs/ekran-goruntuleri/4-gorev-guncelle.png)
+
+### Görev Silme
+
+![Görev silme](docs/ekran-goruntuleri/5-gorev-sil.png)

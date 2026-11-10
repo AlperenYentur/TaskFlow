@@ -74,4 +74,4 @@ Sunucuya gelen her istek, route'lara ulaşmadan önce logger middleware'inden ge
 
 ## 4. Test
 
-Beş CRUD ucunun tamamı Postman üzerinden test edilmiştir. Ekran görüntüleri `docs/postman/` klasöründedir. Kurulum ve çalıştırma adımları için [README](../README.md) dosyasına bakınız.
+Beş CRUD ucunun tamamı Postman üzerinden test edilmiştir. Ekran görüntüleri `docs/ekran-goruntuleri/` klasöründedir. Kurulum ve çalıştırma adımları için [README](../README.md) dosyasına bakınız.
