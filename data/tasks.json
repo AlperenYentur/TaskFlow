@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Proje klasör yapısını oluştur",
+    "description": "routes, controllers ve middleware klasörlerini hazırla",
+    "status": "completed",
+    "priority": "high",
+    "assignee": "musa",
+    "createdAt": "2026-11-09T09:00:00.000Z",
+    "updatedAt": "2026-11-09T12:30:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "Görev CRUD uçlarını yaz",
+    "description": "Ekleme, listeleme, detay, güncelleme ve silme",
+    "status": "in-progress",
+    "priority": "high",
+    "assignee": "ayse",
+    "createdAt": "2026-11-09T09:15:00.000Z",
+    "updatedAt": "2026-11-09T09:15:00.000Z"
+  },
+  {
+    "id": 3,
+    "title": "Logger middleware ekle",
+    "description": "Gelen istekleri konsola ve dosyaya yazsın",
+    "status": "completed",
+    "priority": "medium",
+    "assignee": "mehmet",
+    "createdAt": "2026-11-09T10:40:00.000Z",
+    "updatedAt": "2026-11-09T14:05:00.000Z"
+  },
+  {
+    "id": 4,
+    "title": "Postman testlerini yap",
+    "description": "Bütün uçları dene, ekran görüntüsü al",
+    "status": "pending",
+    "priority": "medium",
+    "assignee": "ayse",
+    "createdAt": "2026-11-10T08:20:00.000Z",
+    "updatedAt": "2026-11-10T08:20:00.000Z"
+  },
+  {
+    "id": 5,
+    "title": "README dosyasını güncelle",
+    "description": "",
+    "status": "pending",
+    "priority": "low",
+    "assignee": "zeynep",
+    "createdAt": "2026-11-10T08:45:00.000Z",
+    "updatedAt": "2026-11-10T08:45:00.000Z"
+  }
+]

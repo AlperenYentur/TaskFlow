@@ -1,0 +1,59 @@
+{
+  "info": {
+    "name": "TaskFlow API",
+    "description": "TaskFlow görev yönetim API'sinin temel CRUD testleri.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "http://localhost:3000" }
+  ],
+  "item": [
+    {
+      "name": "1 - Görev Ekle",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"Login sayfasını tasarla\",\n  \"description\": \"Kullanıcı giriş ekranının arayüzünü hazırla.\",\n  \"priority\": \"high\",\n  \"assignee\": \"musa\"\n}",
+          "options": { "raw": { "language": "json" } }
+        },
+        "url": "{{baseUrl}}/tasks"
+      }
+    },
+    {
+      "name": "2 - Görevleri Listele",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/tasks"
+      }
+    },
+    {
+      "name": "3 - Görev Detayı",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/tasks/6"
+      }
+    },
+    {
+      "name": "4 - Görev Güncelle",
+      "request": {
+        "method": "PUT",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"status\": \"completed\",\n  \"priority\": \"medium\"\n}",
+          "options": { "raw": { "language": "json" } }
+        },
+        "url": "{{baseUrl}}/tasks/6"
+      }
+    },
+    {
+      "name": "5 - Görev Sil",
+      "request": {
+        "method": "DELETE",
+        "url": "{{baseUrl}}/tasks/6"
+      }
+    }
+  ]
+}
